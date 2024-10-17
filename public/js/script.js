@@ -17,3 +17,17 @@ window.addEventListener('resize', () => {
         sideMenu.classList.remove('show');
     }
 });
+
+
+
+
+
+// Toggle side menu
+hamburger.addEventListener('click', () => {
+    sideMenu.classList.toggle('show');
+});
+
+closeBtn.addEventListener('click', () => {
+    sideMenu.classList.remove('show');
+});
+
